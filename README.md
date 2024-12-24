@@ -7,58 +7,58 @@ Anyone with Java installed can use this language. To run this language, you can 
 
 # Features
 
-`let`
-The "let" keyword allows you to declare variables: `let x = 3.0;`
-This stores the value 3.0 into x. You can also declare a variable without a value: `let y;`
+`let`  
+The "let" keyword allows you to declare variables: `let x = 3.0;`  
+This stores the value 3.0 into x. You can also declare a variable without a value: `let y;`  
 
-`print`
-You can print with the "print" keyword: `print "Hello, World!";`\n
-This will allow you to print strings and variables.
+`print`  
+You can print with the "print" keyword: `print "Hello, World!";`  
+This will allow you to print strings and variables.  
 
-`read`
-You can get input from the user with the "read" keyword: `read var;`
-When reading input from a user, you must declare a variable before hand. Then placing the variable as the argument will read that input as a string stored in that variable.
+`read`  
+You can get input from the user with the "read" keyword: `read var;`  
+When reading input from a user, you must declare a variable before hand. Then placing the variable as the argument will read that input as a string stored in that variable.  
 
-`if`
-You can test conditions with the "if" keyword: 
+`if`  
+You can test conditions with the "if" keyword:  
 ```
 let x = 3.0;
 if (x > 0) {
    print "true"; 
 }
-```
+```  
 Additionally, the Dam Language allows for truthyness:
 ```
 let x = 3.0;
 if (x) {
     print "truthy";
 }
-```
+```  
 Truthy values are non-zero numbers and non-empty strings. 
 
-`while`
-The "while" keyword allows users to perform loops:
+`while`  
+The "while" keyword allows users to perform loops:  
 ```
 let x = 5;
 while (x > 0) {
     print "positive";
     x = x - 1;
 }
-```
+```  
 Similar to if statements, while loops allow for truthy values. For loops are currently not implemented.
 
 Functions are also not currently implemented but they are next on the plan.
 
 Type Casting in this language:
 
-`str`
-You can convert variables into strings with the "str" keyword: `let str_x = str(x);`
+`str`  
+You can convert variables into strings with the "str" keyword: `let str_x = str(x);`  
 
-`bool`
-You can convert vairables into booleans with the "bool" keyword: `let bool_y = bool(y);`
+`bool`  
+You can convert vairables into booleans with the "bool" keyword: `let bool_y = bool(y);`  
 
-`double`
-You can convert variable into doubles when applicable with the "double" keyword: `let double_z = double(z);`
+`double`  
+You can convert variable into doubles when applicable with the "double" keyword: `let double_z = double(z);`  
 
 # Operations
 
