@@ -1,0 +1,5 @@
+let h = double("4.0s");
+print h;
+if (!0.0) {
+	print "NOPE!";
+}
